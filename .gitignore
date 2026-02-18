@@ -1,0 +1,28 @@
+gitignore_content = '''
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Secretos (NUNCA subir estos!)
+.env
+*.pem
+secrets/
+'''
+
+print("Crea estos 3 archivos en tu carpeta del proyecto:")
+print("- README.md")
+print("- main.py")
+print("- .gitignore")
