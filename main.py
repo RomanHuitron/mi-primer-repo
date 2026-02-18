@@ -1,5 +1,8 @@
 main_content = '''
 #!/usr/bin/env python3
+y=9
+x=6
+print(f"Suma{x}+{y}= {x+y}")
 """
 Mi primer script en un repositorio Git.
 """
